@@ -1,0 +1,48 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    font-size: 14px;
+}
+
+.container-fluid {
+    margin-top: 30px;
+}
+
+#heading ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+} 
+
+#heading ul li {
+    display: inline;
+}
+
+#heading ul li a, #content li ul li a {
+    font-size: 14px;
+    color: blue;
+    text-decoration: underline;
+}
+
+#heading h2 {
+    display: inline;
+    margin-right: 20px;
+}
+
+#content li {
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+#content li ul, #content li ul li  {
+    display: inline;
+}
+
+#content li ul {
+    float: right;
+}
+
+
