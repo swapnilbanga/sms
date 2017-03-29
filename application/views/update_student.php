@@ -10,7 +10,7 @@
     <div class="container-fluid" id="heading">
         <h2>BTE Engineering College</h2>
         <ul>
-            <li><a href="#">Add a student</a></li>
+            <li><a href="<?php echo base_url(); ?>/index.php/students/addStudent">Add a student</a></li>
             <li>|</li>
             <li><a href="<?php echo base_url(); ?>/index.php/students">List of all students</a></li>
         </ul>
